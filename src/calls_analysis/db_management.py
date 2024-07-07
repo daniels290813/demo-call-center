@@ -40,6 +40,9 @@ from sqlalchemy.orm import (
     sessionmaker,
 )
 
+import pymysql
+pymysql.install_as_MySQLdb()
+
 from src.common import CallStatus, ProjectSecrets
 
 ID_LENGTH = 32
