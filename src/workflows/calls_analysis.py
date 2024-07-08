@@ -234,7 +234,7 @@ def pipeline(
         params={
             "verbose": True,
             "model_name": question_answering_model,
-            "auto_gptq_exllama_max_input_length": 8192,
+            "auto_gptq_exllama_max_input_length": None,
             "device_map": "auto",
             "text_wrapper": TEXT_WRAPPER,
             "questions": QUESTIONS,
