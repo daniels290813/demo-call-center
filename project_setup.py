@@ -170,6 +170,7 @@ def _build_image(project: mlrun.projects.MlrunProject, with_gpu: bool):
         base_image=config["base_image"],
         commands=commands,
         set_as_default=True,
+        with_mlrun=False
     )
 
 def _set_secrets(
