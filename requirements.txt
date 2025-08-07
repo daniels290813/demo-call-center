@@ -1,3 +1,4 @@
 mlrun
 SQLAlchemy
 pymysql
+mysqlclient
